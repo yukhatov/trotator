@@ -1,0 +1,52 @@
+hash: cc940f4def730a830fbf322d061c1807170bb4b331137f7f26c8a56279e2fcac
+updated: 2017-11-20T16:57:00.854814+02:00
+imports:
+- name: github.com/bsm/openrtb
+  version: 7b145ebb8d5dd1824d27a0f5fa136151770c119e
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/eapache/go-resiliency
+  version: b86b1ec0dd4209a588dc1285cdd471e73525c0b3
+  subpackages:
+  - breaker
+- name: github.com/eapache/go-xerial-snappy
+  version: bb955e01b9346ac19dc29eb16586c90ded99a98c
+- name: github.com/eapache/queue
+  version: 44cc805cf13205b55f69e14bcb69867d1ae92f98
+- name: github.com/go-redis/redis
+  version: 2fb3f0e45fb2c55d79dd7e4b06b5281ae437debb
+  subpackages:
+  - internal
+  - internal/consistenthash
+  - internal/hashtag
+  - internal/pool
+  - internal/proto
+- name: github.com/golang/snappy
+  version: d9eb7a3d35ec988b8585d4a0068e462c27d28380
+- name: github.com/klauspost/crc32
+  version: cb6bfca970f6908083f26f39a79009d608efd5cd
+- name: github.com/mssola/user_agent
+  version: a2f39d5a9b15ecc1fa1005b6aae73cd83da240ef
+- name: github.com/oschwald/maxminddb-golang
+  version: 26fe5ace1c706491c2936119e1dc69c1a9c04d7f
+- name: github.com/satori/go.uuid
+  version: 5bf94b69c6b68ee1b541973bb8e1144db23a194b
+- name: github.com/Shopify/sarama
+  version: bd61cae2be85fa6ff40eb23dcdd24567967ac2ae
+- name: github.com/Sirupsen/logrus
+  version: 881bee4e20a5d11a6a88a5667c6f292072ac1963
+- name: github.com/stackimpact/stackimpact-go
+  version: 7389ae98b72c0cfc63930d34a8c4a247e39306e1
+  subpackages:
+  - internal
+  - internal/pprof/profile
+- name: golang.org/x/sys
+  version: 478fcf54317e52ab69f40bb4c7a1520288d7f7ea
+  subpackages:
+  - unix
+  - windows
+- name: gopkg.in/Shopify/sarama.v1
+  version: c01858abb625b73a3af51d0798e4ad42c8147093
+testImports: []

@@ -1,0 +1,11 @@
+package: bitbucket.org/tapgerine/traffic_rotator
+import:
+- package: github.com/Sirupsen/logrus
+- package: github.com/go-redis/redis
+- package: github.com/davecgh/go-spew/spew
+- package: gopkg.in/Shopify/sarama.v1
+- package: github.com/satori/go.uuid
+- package: github.com/Sirupsen/logrus
+- package: github.com/oschwald/maxminddb-golang
+- package: github.com/mssola/user_agent
+- package: github.com/bsm/openrtb
